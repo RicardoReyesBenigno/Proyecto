@@ -1,0 +1,125 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papeleria y pronosticos "Snoopy</title>
+    <link rel="icon" href="logopronosticos.png">
+    <link rel="stylesheet" href="style.css">
+    
+
+	<script src="jquery-3.2.1.js"></script>
+	<script src="script.js"></script>
+    <script src="Productos.js"></script>
+        
+</head>
+<body>
+    <header>
+        <img src="Programer.jpg" alt="">
+        <nav>
+    
+            <a href="ResultadosTris.html">ResultadosTris</a>
+            <a href="AriculosPapeleria.html">ArticulosPapeleria</a>
+            <a href=Contactos.html>Contactos</a>
+            <br>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <button class="button-checkout">Pagar</button>
+        </div>
+        <div class="wrap">
+            <h1>Articulos de la papeleria</h1>
+            <div class="store-wrapper">
+                <div class="category_list">
+                    <a href="#" class="category_item" category="all">Todo</a>
+                    <a href="#" class="category_item" category="lapices">lapices</a>
+                    <a href="#" class="category_item" category="Lapiceros">Lapiceros</a>
+                    <a href="#" class="category_item" category="Estucheras">Estucheras</a>
+                    <a href="#" class="category_item" category="Smartphones">Smartphones</a>
+                    <a href="#" class="category_item" category="Audifonos">Audifonos</a>
+                    <a href="#" class="category_item" category="Laptop">Laptop</a>
+                    <a href="#" class="category_item" category="Mochilas">Mochilas</a>
+                    <a href="#" class="category_item" category="Cuadernos">Cuadernos</a>
+                </div>
+                <section class="products-list">
+                    <div class="product-item" category="lapices">
+                        <img src="Lapices.jpg" alt="" width="100" height="200">
+                        <a href="#">Lapices</a>
+                        <h3>$50</h3>
+                        <button class="button-add" onclick="add('Lapices',50)">Agregar</button>
+                    </div>
+                    <div class="product-item" category="Lapiceros">
+                        <img src="Lapiceros2.jpg" alt="" width="100" height="200">
+                        <a href="#">Lapiceros</a>
+                        <h3>$60</h3>
+                        <button class="button-add" onclick="add('Lapiceros',60)">Agregar</button>
+                    </div>
+                    <div class="product-item" category="Estucheras">
+                        <img src="Estucheras.jpg" alt="" width="100" height="200">
+                        <a href="#">Estucheras</a>
+                        <h3>$30</h3>
+                        <button class="button-add"onclick="add('Estucheras',30)">Agregar</button>
+                    </div>
+                    <div class="product-item" category="Smartphones">
+                        <img src="samsun.jfif" alt="" width="100" height="200">
+                        <a href="#">samsung_galaxy</a>
+                        <h3>$20000</h3>
+                        <button class="button-add"onclick="add('samsun',20000)">Agregar</button>
+                    </div>
+                    <div class="product-item" category="Smartphones">
+                        <img src="celular.jpg" alt="" width="100" height="200">
+                        <a href="#">celular</a>
+                        <h3>$10000</h3>
+                        <button class="button-add"onclick="add('celular',10000)">Agregar</button>
+                    </div>
+                    <div class="product-item" category="Laptop">
+                        <img src="Laptop.jpg" alt=""width="100" height="200" >
+                        <a href="#">Laptop lenovo</a>
+                        <h3>$6000</h3>
+                        <button class="button-add"onclick="add('Laptop',6000)">Agregar</button>
+                    </div>
+                    <div class="product-item" category="Audifonos">
+                        <img src="Audifonos.jpg" alt="" width="100" height="200">
+                        <a href="#">Audifonos</a>
+                        <h3>$500</h3>
+                        <button class="button-add"onclick="add('Audifonos',500)">Agregar</button>
+                    </div>
+                    <div class="product-item" category="Audifonos">
+                        <img src="jbl.jpg" alt="" width="100" height="200">
+                        <a href="#">Audifonos</a>
+                        <h3>$500</h3>
+                        <button class="button-add"onclick="add('jbl',500)">Agregar</button>
+                    </div>
+                    <div class="product-item" category="Cuadernos">
+                        <img src="cuadernos.jpg" alt="" width="100" height="200">
+                        <a href="#">Cuadernos</a>
+                        <h3>$60</h3>
+                        <button class="button-add"onclick="add('cuadernos,60)">Agregar</button>
+                    </div>
+                    <div class="product-item" category="Mochilas">
+                        <img src="mochila1.jpg" alt="" width="100" height="200">
+                        <a href="#">Mochilas</a>
+                        <h3>$200</h3>
+                        <button class="button-add"onclick="add('Mochilas',200)">Agregar</button>
+                    </div>
+                    <div class="product-item" category="Mochilas">
+                        <img src="mochila2.jpg" alt="" width="100" height="200">
+                        <a href="#">Mochilas</a>
+                        <h3>$250</h3>
+                        <button class="button-add"onclick="add('mochila2',250)">Agregar</button>
+                    </div>
+                    <div class="product-item" category="Mochilas">
+                        <img src="mochila3.jpg" alt="" width="100" height="200">
+                        <a href="#">Mochilas</a>
+                        <h3>$230</h3>
+                        <button class="button-add"onclick="add('mochila3',230)">Agregar</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>
